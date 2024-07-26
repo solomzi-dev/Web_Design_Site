@@ -6,12 +6,35 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+
+.blue-txt {
+  color: midnightblue;
+}
+
 .main {
   flex: 1;
 }
 
 h1 {
   font-size: 5rem;
+}
+
+.tile-image {
+  width: 300px;
+  float: left;
+  padding: 30px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.card {
+  width: 45%;
 }
 
 footer {
